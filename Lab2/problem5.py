@@ -7,5 +7,5 @@ def ListToString(s):
     return str
 string = "Practice Problems to Drill List Comprehension in Your Head."
 string = string.strip(".")
-result = [i for i in string.split(" ") if len(i)<5]
+result = [i for i in string.split(" ") if len(i) < 5]
 print(ListToString(result))
